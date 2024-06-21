@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.App{
+  min-height:100vh;
+  display:flex;
+  background-image:url("./assets/bg.jpg");
+  background-size:cover;
+  background-position:center;
+  color:balck;
+}
+
+::-webkit-scrollbar{
+  width:0px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color:rgba(66, 65, 65, 0);
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color:rgba(63, 57, 57, 0.975);
+}
